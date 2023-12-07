@@ -1,0 +1,112 @@
+.svg-background {
+    background-color: #f8f9fa;
+    background-image: url("../imagenes/fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    text-align: left;
+
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    text-align: left;
+    font-size: large;
+    gap: 5px;
+}
+
+.navlist li a {
+    color: #161A30;
+}
+
+#imagen {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-left: 66px;
+}
+
+b {
+    white-space: nowrap;
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    overflow: hidden;
+
+    .bar-main {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .text1 {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column: span 1 / span 3;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: larger;
+        margin-left: 40px;
+    }
+
+    .bar-main2 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: larger;
+    }
+
+    .text2 {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column: span 1 / span 3;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: x-large;
+        margin-left: 25px;
+    }
+
+    .bar-main3 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: larger;
+    }
+    
+
+}
+
+.pistolas {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column: span 1;
+    overflow-y: scroll;
+    max-height: 200px;
+    border-radius: 15px;
+    background-color: #f8f9fa transparent ;
+}
+
+.revolveres {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    overflow-y: scroll;
+    max-height: 200px;
+    border-radius: 15px;
+    background-color: #f8f9fa transparent ;
+}
+.fusiles{
+    grid-column: span 1/ span 3;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        font-family: 'Bebas Neue', sans-serif;
+        overflow-y: scroll;
+    }
